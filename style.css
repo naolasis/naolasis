@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+}
+
+/* header and navigation part */
+
+header h1.upper{
+    text-align: center;
+}
+.secondery-nav{
+    background-color: #ea1538;
+    border-radius: 100px;
+    margin-left: auto;
+}
+
+.button{
+    font-weight: bolder;
+    font-size: large;
+}
+
+li{
+    list-style: none;
+    padding: 1.3rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    padding: 1rem 0;
+    background: #101920;
+    color: white;
+}
+
+/* about part */
+
+section.about{
+    background: #101920;
+    color: white;
+}
+hr{
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    width: 100%;
+}
+.col + .col{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+
+@media(max-width:60em){
+    .row{
+        flex-wrap: wrap;
+    }
+}
+
+.photo{
+    width: 100%;
+    margin: 0 auto;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+
+}
+
+span{
+    color: #ea1538;
+}
+
+/* project section */
+
+section.project{
+    background-color:black ;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+section.project p{
+    padding-bottom: 20px;
+}
+
+
+/* footer section */
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+}
