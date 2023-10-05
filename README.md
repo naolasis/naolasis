@@ -1,4 +1,4 @@
-![logo](https://github.com/naolasis/projects/blob/main/keyboard.jfif)
+![logo](https://github.com/naolasis/naolasis/blob/main/keyboard.jfif)
 <h1 align="center">Hi 👋, I'm Naol Sisay</h1>
 
 <h3 align="center">A passionate frontend developer from Ethiopia</h3>
